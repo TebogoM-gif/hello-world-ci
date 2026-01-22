@@ -4,7 +4,7 @@
   "description": "Hello World project with GitHub Actions CI",
   "main": "index.js",
   "scripts": {
-    "build": "node wrongfile.js"
+    "build": "node index.js"
   },
   "author": "Tebogo",
   "license": "ISC"
