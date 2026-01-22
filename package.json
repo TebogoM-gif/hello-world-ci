@@ -4,9 +4,14 @@
   "description": "Hello World project with GitHub Actions CI",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0"
   },
   "author": "Tebogo",
   "license": "ISC"
 }
-
